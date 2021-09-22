@@ -47,6 +47,32 @@ footer {
   text-decoration: underline;
 }
 
+.carre {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 3px;
+}
 .h {
   height: 100px;
+}
+i {
+  width: 20px;
+  height: 20px;
+  /* margin-right: 2px; */
+}
+
+.input_style {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.buton_style {
+  color: white;
+  background-color: black;
+  border: white solid 1px;
 }
