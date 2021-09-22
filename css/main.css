@@ -16,6 +16,11 @@ h3,
   color: black;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
 
+
+}
 
 

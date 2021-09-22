@@ -36,3 +36,17 @@ header {
   width: 75px;
   height: 75px;
 }
+
+footer {
+  background-color: black;
+  height: 400px;
+}
+
+.flex-column a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.h {
+  height: 100px;
+}

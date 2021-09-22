@@ -46,3 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+/* .............container....... */
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.img{
+	width:  150px;  
+  height: 150px;
+}
+
+
