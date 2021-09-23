@@ -112,8 +112,18 @@ i {
   display: flex;
 }
 
+.pad-white{
+  
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 3px;
+}
 
-
+.columns{
+  flex-direction: column;
+  
+    
+}
 .no{
   display: none;
 }
@@ -145,6 +155,9 @@ i {
   }
   .margin_left{
     margin-left: 20px;
+  }
+  .margin_leftt{
+    margin-left: 10px;
   }
 }
 
