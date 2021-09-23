@@ -27,8 +27,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    
   </head>
   <body>
+        <!-- ..........................header....................... -->
     <div class="top-section">
         <div class="filter"></div>
         <div class="content">
@@ -56,70 +58,75 @@
       </div>
       
     </nav>
-    <div class="container">
-    <section class="articles">
-      
-        <h1>Dernier articles</h1>
-        <img class="img" src="./img/articles/suzette/suzette-small.jpg" alt="img">
-      <div>
-        <h2>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h2>
-        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons 
-          ouvre son premier restaurant à Paris dans le quartier latin. Antoine 
-          de Cui'zine a testé pour vous les saveurs sucrées, salées au froment ou au sarrazin!</p>
+    <main class="container">
+      <h2 class="text-center my-5">Derniers articles</h2>
+      <div class="row my-4">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+      <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./img/articles/suzette/suzette-header.jpg" class="img-fluid" alt="Suzette">
       </div>
-   
-    
-        <h1>Le Métro dessert</h1>
-       <img class="img" src="./img/articles/metro/metro-small.jpg" alt="">
-       <div>
-        <h2>Le Métro dessert</h2>
-        <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier.
-           Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré 
-           du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? 
-           Clémentine entre en gare et nous donne son avis</p>
+      <div class="col-sm-12 col-md-12 col-lg-9">
+      <h3>Chez suzette, la nouvelle crêperie qui fait parler d'elle</h3>
+      <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son permier restaurant à Paris dans le quartier latin. Antonie de Cu'zine a testé pour vous le saveurs scurés, salés au froment ou au sarrazin!</p>
       </div>
-     
-         
-       <img class="img" src="./img/articles/vitaly/vitaly-small.jpg" alt="">
-       <div>
-        <h2>Vitaly, le végan italien</h2>
-        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait,
-           les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais
-            le tester pour vous.</p>
-            <p>Voir lzs articles Précédents</p>
-          </div>
-<div>
-  <form class="form">
-    <h3 class="Recherche">Recherche</h3>
-    <div class="mb-8 p-3">
-      <label for="exampleInputEmail1" class="form-label">Recherche</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-    </div>
-    <div class="mb-8 p-3" >
-      <label for="exampleInputPassword1" class="form-label">Newsletter</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-8 p-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">partagger</label>
-    </div>
-    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-  </form>
-</div>
-     
-      
-     
-  </div>
-    </section>
+      </div>
+        <!-- ..........................row1....................... -->
+      <div class="row my-4">
+      <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./img/articles/metro/metro-header.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-9">
+      <h3>Le Métro dessert</h3>
+      <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
+      </div>
+      </div>
+       <!-- ..........................row2....................... -->
+      <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-3">
+      <img src="./img/articles/vitaly/vitaly-header.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-9">
+      <h3>Vitaly, le végan italien</h3>
+      <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
+      </div>
+      </div>
+      </div>
+        <!-- ..........................row3....................... -->
+      <div class="col-lg-3 contact-hidden">
+      <div class="d-grid">
+      <h5>Recherche</h5>
+      <input type="text" class="form-control" placeholder="Recherche...">
+      <button type="button" class="btn btn-outline-dark block">Ok</button>
+      </div>
+      <div class="d-grid my-3">
+      <h5>Newesletter</h5>
+      <input type="text" class="form-control" placeholder="Email...">
+      <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+      </div>
+      <div class="reaseaux">
+      <h5>Partager</h5>
+      <button class="btn"><i class="fab fa-facebook"></i></button>
+      <button class="btn"><i class="fab fa-instagram"></i></button>
+      <button class="btn"><i class="fab fa-youtube"></i></button>
+      <button class="btn"><i class="fab fa-twitter"></i></button>
+      </div>
+      </div>
+      <p class="my-4"><a href="#" class="text-dark">Voir les articles précédents</a></p>
+      </div>
+      </main>
 
+
+     
+  
+<!-- ..........................footer....................... -->
 
     <footer class="d-flex justify-content-center align-items-center justify-content-around">
         <div class="d-flex flex-column h">
             <h3 class="white">Catégories</h3>
-            <a href="">Revues</a>
-            <a href="">Recettes</a>
-            <a href="">Découvertes</a>
+            <a href="#">Revues</a>
+            <a href="#">Recettes</a>
+            <a href="#">Découvertes</a>
         </div>
         <div class="d-flex flex-column h">
             <h3 class="white">Archives</h3>
@@ -128,12 +135,21 @@
             <a href="">2017</a>
         </div>
         <div class="d-flex flex-column h">
-            <h3>Newsletter</h3>
-            <div class="d-flex flex-row-reverse" >
-                <input type="button"  value="S'inscrire">
-                <input placeholder="Email..." type="text">   
+            <h3 class="mb-4 white">Newsletter</h3>
+            <div class="d-flex flex-row-reverse mb-3" >
+                <input class="input_style buton_style" type="button"  value="S'inscrire">
+                <input class="input_style" placeholder=" Email..." type="text">   
             </div>  
+            <h3 class="white">Partager</h3>
+            <div class="d-flex size_div">
+               <div class="carre"> <i class="fab fa-facebook-square"></i></div>
+               <div class="carre"> <i class="fab fa-instagram-square"></i></div>
+               <div class="carre"> <i class="fab fa-youtube"></i></div>
+               <div class="carre"> <i class="fab fa-twitter-square"></i></div>
+
+            </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/01ef36094c.js" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,0 +1,8 @@
+.first-letter ::first-letter{
+float: left;
+font-size: 4em;
+font-weight: bold;
+line-height: 30px;
+padding: 6PX;
+color: rgb(158, 157, 157);
+}
