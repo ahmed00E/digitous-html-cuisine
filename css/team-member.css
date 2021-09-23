@@ -1,0 +1,9 @@
+.top-section3 {
+    position: relative;
+    background-position: center;
+    height: 90vh;
+    background-image: url("../img/team/team.jpg");
+  }
+  h2{
+      text-align: center;
+  }

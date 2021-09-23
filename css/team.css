@@ -1,0 +1,13 @@
+.top-section1 {
+    position: relative;
+    background-image: url(/img/team/team.jpg);
+    background-position: center;
+    height: 90vh;
+  }
+  h1{
+      font-size: 50px;
+      text-align: center;
+  }
+  h2{
+      font-size: 28px;
+  }
