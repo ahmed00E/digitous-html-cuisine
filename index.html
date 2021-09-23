@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page d'acceuil</title>
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/homepage.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,6 +27,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/01ef36094c.js" crossorigin="anonymous"></script>
+
     
   </head>
   <body>
@@ -41,13 +43,16 @@
                     Cui'zine
                     </a>
                 </div>
-                <div class="d-flex">
+                <div class="no"><i class="fas fa-bars"></i></div>
+                <div class="flex disapear">
                   <a class="nav-link white" href="#">Acceuil</a>
                   <a class="nav-link text-secondary" href="#">Equipe</a>
                   <a class="nav-link text-secondary" href="#">Blog</a>
                   <a class="nav-link text-secondary" href="#">Contact</a>
                 </div>
+                
               </nav> 
+              <hr>
           </header>
           <div class="d-flex align-items-center flex-column mt-5">
             <img class="size_img" src="img/logo_square_white.png" />
@@ -55,7 +60,9 @@
             <h2>Le mag cuisine</h2>
           </div>
         </div>
+        
       </div>
+      
        <!-- ..........................main....................... -->
     </nav>
     <main class="container">
@@ -121,27 +128,27 @@
   
 <!-- ..........................footer....................... -->
 
-    <footer class="d-flex justify-content-center align-items-center justify-content-around">
-        <div class="d-flex flex-column h">
-            <h3 class="white">Catégories</h3>
-            <a href="#">Revues</a>
-            <a href="#">Recettes</a>
-            <a href="#">Découvertes</a>
+    <footer class="flex justify-content-center align justify-content-around column">
+        <div class="d-flex flex-column h margin_left">
+            <h3 class="white margin_left">Catégories</h3>
+            <a class="margin_left"href="#">Revues</a>
+            <a class="margin_left"href="#">Recettes</a>
+            <a class="margin_left"href="#">Découvertes</a>
         </div>
-        <div class="d-flex flex-column h">
-            <h3 class="white">Archives</h3>
-            <a href="">2019</a>
-            <a href="">2018</a>
-            <a href="">2017</a>
+        <div class="d-flex flex-column h margin_left">
+            <h3 class="white margin_left">Archives</h3>
+            <a class="margin_left" href="">2019</a>
+            <a class="margin_left" href="">2018</a>
+            <a class="margin_left" href="">2017</a>
         </div>
-        <div class="d-flex flex-column h">
-            <h3 class="mb-4 white">Newsletter</h3>
+        <div class="d-flex flex-column h margin_left">
+            <h3 class="mb-4 white margin_left">Newsletter</h3>
             <div class="d-flex flex-row-reverse mb-3" >
-                <input class="input_style buton_style" type="button"  value="S'inscrire">
-                <input class="input_style" placeholder=" Email..." type="text">   
+                <input class="input_style buton_style " type="button"  value="S'inscrire">
+                <input class="input_style margin_left" placeholder=" Email..." type="text">   
             </div>  
-            <h3 class="white">Partager</h3>
-            <div class="d-flex size_div">
+            <h3 class="white margin_left">Partager</h3>
+            <div class="d-flex size_div margin_left">
                <div class="carre"> <i class="fab fa-facebook-square"></i></div>
                <div class="carre"> <i class="fab fa-instagram-square"></i></div>
                <div class="carre"> <i class="fab fa-youtube"></i></div>
@@ -150,6 +157,5 @@
             </div>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/01ef36094c.js" crossorigin="anonymous"></script>
   </body>
 </html>
