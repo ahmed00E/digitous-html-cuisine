@@ -51,3 +51,14 @@ h3,
 }
 
  
+.font h5{
+  font-family: "Oswald", sans-serif;
+}
+
+
+.img-fluid {
+   
+  background: black;
+  border-radius: 50px;
+  
+}
